@@ -1,0 +1,8 @@
+# This is for development purposes only, use "Authorization: Bearer user-1" when testing the router in isolation locally. 
+# In a separate workshop, we will use a co-processor and JWT token to authenticate the user properly.
+# The MCP server will also be configured to use authorization properly
+headers:
+  all:
+    request:
+      - propagate:
+          named: "Authorization"

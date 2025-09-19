@@ -1,0 +1,4 @@
+operations:
+  source: local
+  paths:
+    - ./operations/GetFeaturedListings.graphql

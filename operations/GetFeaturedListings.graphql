@@ -1,0 +1,6 @@
+query GetFeaturedListings {
+  featuredListings {
+    id
+    title
+  }
+}

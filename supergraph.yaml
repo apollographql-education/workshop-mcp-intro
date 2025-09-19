@@ -1,0 +1,22 @@
+federation_version: =2.11.0
+subgraphs:
+  listings:
+    routing_url: https://rt-airlock-subgraphs-listings.herokuapp.com/
+    schema:
+      subgraph_url: https://rt-airlock-subgraphs-listings.herokuapp.com/
+  # accounts:
+  #   routing_url: https://rt-airlock-subgraphs-accounts.herokuapp.com/
+  #   schema:
+  #     subgraph_url: https://rt-airlock-subgraphs-accounts.herokuapp.com/
+  # bookings:
+  #   routing_url: https://rt-airlock-subgraphs-bookings.herokuapp.com/
+  #   schema:
+  #     subgraph_url: https://rt-airlock-subgraphs-bookings.herokuapp.com/
+  # reviews:
+  #   routing_url: https://rt-airlock-subgraphs-reviews.herokuapp.com/
+  #   schema:
+  #     subgraph_url: https://rt-airlock-subgraphs-reviews.herokuapp.com/
+  # payments:
+  #   routing_url: https://rt-airlock-subgraphs-payments.herokuapp.com/
+  #   schema:
+  #     subgraph_url: https://rt-airlock-subgraphs-payments.herokuapp.com/
