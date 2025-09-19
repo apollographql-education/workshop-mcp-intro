@@ -1,3 +1,5 @@
+transport:
+  type: streamable_http
 operations:
   source: local
   paths:
