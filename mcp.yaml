@@ -4,3 +4,17 @@ operations:
   source: local
   paths:
     - ./operations/GetFeaturedListings.graphql
+    - ./operations/GetListingDetails.graphql
+introspection:
+  execute:
+    enabled: true
+  introspect:
+    enabled: true
+    # minify: true
+  search:
+    enabled: true
+    # minify: true
+    # index_memory_bytes: 50000000
+    # leaf_depth: 1
+  validate:
+    enabled: true

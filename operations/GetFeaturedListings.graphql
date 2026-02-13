@@ -2,5 +2,9 @@ query GetFeaturedListings {
   featuredListings {
     id
     title
+    description
+    numOfBeds
+    costPerNight
+    locationType
   }
 }

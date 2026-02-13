@@ -1,0 +1,15 @@
+query GetListingDetails($listingId: ID!) {
+  listing(id: $listingId) {
+    id
+    title
+    description
+    numOfBeds
+    costPerNight
+    locationType
+    amenities {
+      name
+      category
+    }
+    photoThumbnail
+  }
+}
